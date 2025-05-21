@@ -55,5 +55,6 @@ cmd 창에 아래의 코드를 입력해줍니다. 코드를 실행할 때 현�
 ```
 python app.py
 ```
-
+<img src="https://github.com/jjkkhh123/webApp_base/blob/main/images/img1.png" alt="html 장면" width="500" height="500">
+<img src="https://github.com/jjkkhh123/webApp_base/blob/main/images/img2.png" alt="html 장면" width="300" height="200">
 
