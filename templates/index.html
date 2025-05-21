@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 관리</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>회원 관리</h1>
+    <form action="/add" method="post">
+        <label for="name">이름  :</label>
+        <input type="text" id="name" name="pyname" required>
+        <br><br>
+        <label for="phone">전화번호:</label>
+        <input type="text" id="phone" name="pyphone" placeholder="ex)000-0000-0000" required>
+        <br><br>
+        <label for="birth">생년월일:</label>
+        <input type="text" id="birth" name="pybirth" placeholder="ex)20250521" required>
+        <br><br>
+        <button type="submit">Add Contact</button>
+    </form>
+</body>
+</html>
